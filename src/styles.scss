@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@media screen and (min-width: 768px) {
+    .stretch-screen {
+        width     : 100% !important;
+        height    : 100% !important;
+        min-height: 100% !important;
+        min-width : 100% !important;
+    }
+}
+
+.intro-nav {
+    border          : 2px;
+    border-top-style: solid;
+    border-radius   : 2px;
+}
+
+.borders-red {
+    border-color: #C00000;
+}
+
+.borders-yellow {
+    border-color: #FFC000;
+}
+
+.borders-green {
+    border-color: #92D050;
+}
+
+.borders-blue {
+    border-color: #5B9BD5;
+}
+
+
+.borders-colored:nth-child(4n+1) {
+    border-color: #C00000;
+}
+
+.borders-colored:nth-child(4n+2) {
+    border-color: #FFC000;
+}
+
+.borders-colored:nth-child(4n+3) {
+    border-color: #92D050;
+}
+
+.borders-colored:nth-child(4n+4) {
+    border-color: #5B9BD5;
+}
+
+body,
+html {
+  height: 100%;
+}

@@ -1,0 +1,111 @@
+// .bg {
+//   /* The image used */
+//   background-image   : url('../../assets/IMG_20180901_150924.jpg');
+//   background-size    : cover;
+//   background-position: center;
+//   background-repeat  : no-repeat;
+//   height             : 100vh;
+// }
+
+.intro-header {
+  height: unset !important;
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.view {
+  height: 100vh !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width     : 80px;
+}
+
+@media (max-width: 740px) {
+
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+    height: 700px;
+  }
+}
+
+
+.center {
+  display       : block;
+  margin-left   : auto;
+  margin-right  : auto;
+  width         : 25%;
+  border-radius : 50%;
+  padding-bottom: 10px;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url('../../assets/IMG_20180901_150924.jpg');
+
+  /* Add the blur effect */
+  // filter        : blur(8px);
+  // -webkit-filter: blur(8px);
+
+  /* Full height */
+  // height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color      : white;
+  font-weight: bold;
+  border     : 3px solid #f1f1f1;
+  position   : absolute;
+  top        : 50%;
+  left       : 50%;
+  transform  : translate(-50%, -50%);
+  z-index    : 2;
+  width      : 80%;
+  padding    : 20px;
+  text-align : center;
+}
+
+.intro-icon-set {
+  margin-bottom: 5px;
+  .fab {
+    margin: 0 10px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    &:hover,&:focus {
+      color: #0e76a8;
+      font-size: 1.98rem;
+    }
+  }
+}
